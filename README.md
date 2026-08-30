@@ -37,6 +37,13 @@ tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 
 sudo install -m 0755 /tmp/eksctl /usr/local/bin && rm /tmp/eksctl
 ```
+5) Install Helm 
+```
+curl -fsSL https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+helm version
+
+```
+
 ## Step - 2 : Create IAM role & attach to EKS Management Host ##
 
 1) Create New Role using IAM service ( Select Usecase - ec2 ) 	
