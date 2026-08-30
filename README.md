@@ -1,6 +1,11 @@
 ## Step - 1 : Create EKS Management Host in AWS ##
 
-1) Launch new Ubuntu VM using AWS Ec2 ( t2.micro )	  
+1) Launch new Ubuntu VM using AWS Ec2 ( t2.micro )
+## Install Unzip 
+```
+sudo apt update
+sudo apt install unzip -y
+```
 2) Connect to machine and install kubectl using below commands  
 ```
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.36.2/2026-07-05/bin/linux/amd64/kubectl
