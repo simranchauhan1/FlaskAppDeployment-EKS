@@ -94,5 +94,5 @@ eksctl create cluster --name demo-cluster --region ap-south-1 --node-type t2.med
 ## Step - 4 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
 
 ```
-eksctl delete cluster --name ashokit-cluster4 --region ap-south-1
+eksctl delete cluster --name demo-cluster --region us-east-1
 ```
